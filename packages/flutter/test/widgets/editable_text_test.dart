@@ -17431,8 +17431,11 @@ void main() {
   });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   testWidgets('Can implement TextEditingController', (WidgetTester tester) async {
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
   testWidgets('getPositionForPoint is correct when EditableText is scaled', (WidgetTester tester) async {
     final GlobalKey key = GlobalKey();
     controller.text = 'Line1\nLine2\nLine3\nLine4\nLine5\nLine6\nLine7\nLine8';
@@ -17628,6 +17631,9 @@ void main() {
   });
 
   testWidgets('Composing region can truncate grapheme', (WidgetTester tester) async {
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
     await tester.pumpWidget(
       MediaQuery(
@@ -17638,8 +17644,11 @@ void main() {
             autofocus: true,
             backgroundCursorColor: Colors.grey,
 <<<<<<< HEAD
+<<<<<<< HEAD
             controller: _TextEditingControllerImpl(),
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
             controller: controller,
             focusNode: focusNode,
             style: textStyle,
@@ -17674,6 +17683,9 @@ void main() {
             autofocus: true,
             backgroundCursorColor: Colors.grey,
             controller: controller,
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
             focusNode: focusNode,
             style: textStyle,

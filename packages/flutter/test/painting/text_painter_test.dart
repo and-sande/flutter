@@ -1719,6 +1719,7 @@ void main() {
     )..layout();
     expect(painter.height, 10);
   });
+<<<<<<< HEAD
 
   test('getOffsetForCaret does not crash on decomposed characters', () {
     final TextPainter painter = TextPainter(
@@ -1733,6 +1734,8 @@ void main() {
       returnsNormally,
     );
   });
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 
   test('TextPainter dispatches memory events', () async {
     await expectLater(

@@ -8,8 +8,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_color_utilities/material_color_utilities.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:material_color_utilities/scheme/scheme_fruit_salad.dart';
 import 'package:material_color_utilities/scheme/scheme_rainbow.dart';
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 
@@ -812,7 +815,11 @@ void main() {
         dynamicSchemeVariant: DynamicSchemeVariant.fidelity
       ),
 <<<<<<< HEAD
+<<<<<<< HEAD
       const Color(0xFF3F2CD0)
+=======
+      const Color(0xFF4C3CDB)
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
       const Color(0xFF4C3CDB)
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -827,7 +834,10 @@ void main() {
     );
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 
   testWidgets('Colors in high-contrast color scheme matches colors in DynamicScheme', (WidgetTester tester) async {
     const Color seedColor = Colors.blue;
@@ -912,6 +922,9 @@ void main() {
       colorsMatchDynamicSchemeColors(schemeVariant, Brightness.dark, 0.5);
     }
   });
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 }
 

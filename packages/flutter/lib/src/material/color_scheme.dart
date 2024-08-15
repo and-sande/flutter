@@ -286,10 +286,13 @@ class ColorScheme with Diagnosticable {
   /// to [DynamicSchemeVariant.fidelity], whose palettes match the seed color.
   ///
 <<<<<<< HEAD
+<<<<<<< HEAD
   /// {@tool dartpad}
   /// This sample shows how to use [ColorScheme.fromSeed] to create dynamic
   /// color schemes with different [DynamicSchemeVariant]s.
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
   /// The `contrastLevel` parameter indicates the contrast level between color
   /// pairs, such as [primary] and [onPrimary]. 0.0 is the default (normal);
   /// -1.0 is the lowest; 1.0 is the highest. From Material Design guideline, the
@@ -299,6 +302,9 @@ class ColorScheme with Diagnosticable {
   /// This sample shows how to use [ColorScheme.fromSeed] to create dynamic
   /// color schemes with different [DynamicSchemeVariant]s and different
   /// contrast level.
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
   ///
   /// ** See code in examples/api/lib/material/color_scheme/color_scheme.0.dart **
@@ -315,6 +321,10 @@ class ColorScheme with Diagnosticable {
     Brightness brightness = Brightness.light,
     DynamicSchemeVariant dynamicSchemeVariant = DynamicSchemeVariant.tonalSpot,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    double contrastLevel = 0.0,
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
     double contrastLevel = 0.0,
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -381,7 +391,11 @@ class ColorScheme with Diagnosticable {
     Color? surfaceVariant,
   }) {
 <<<<<<< HEAD
+<<<<<<< HEAD
     final DynamicScheme scheme = _buildDynamicScheme(brightness, seedColor, dynamicSchemeVariant);
+=======
+    final DynamicScheme scheme = _buildDynamicScheme(brightness, seedColor, dynamicSchemeVariant, contrastLevel);
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
     final DynamicScheme scheme = _buildDynamicScheme(brightness, seedColor, dynamicSchemeVariant, contrastLevel);
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -1697,6 +1711,10 @@ class ColorScheme with Diagnosticable {
     Brightness brightness = Brightness.light,
     DynamicSchemeVariant dynamicSchemeVariant = DynamicSchemeVariant.tonalSpot,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    double contrastLevel = 0.0,
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
     double contrastLevel = 0.0,
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -1774,7 +1792,11 @@ class ColorScheme with Diagnosticable {
     final ui.Color baseColor = Color(scoredResults.first);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     final DynamicScheme scheme = _buildDynamicScheme(brightness, baseColor, dynamicSchemeVariant);
+=======
+    final DynamicScheme scheme = _buildDynamicScheme(brightness, baseColor, dynamicSchemeVariant, contrastLevel);
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
     final DynamicScheme scheme = _buildDynamicScheme(brightness, baseColor, dynamicSchemeVariant, contrastLevel);
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -1915,6 +1937,7 @@ class ColorScheme with Diagnosticable {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   static DynamicScheme _buildDynamicScheme(Brightness brightness, Color seedColor, DynamicSchemeVariant schemeVariant) {
     final bool isDark = brightness == Brightness.dark;
     final Hct sourceColor =  Hct.fromInt(seedColor.value);
@@ -1929,6 +1952,8 @@ class ColorScheme with Diagnosticable {
       DynamicSchemeVariant.rainbow => SchemeRainbow(sourceColorHct: sourceColor, isDark: isDark, contrastLevel: 0.0),
       DynamicSchemeVariant.fruitSalad => SchemeFruitSalad(sourceColorHct: sourceColor, isDark: isDark, contrastLevel: 0.0),
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
   static DynamicScheme _buildDynamicScheme(
     Brightness brightness,
     Color seedColor,
@@ -1951,6 +1976,9 @@ class ColorScheme with Diagnosticable {
       DynamicSchemeVariant.expressive => SchemeExpressive(sourceColorHct: sourceColor, isDark: isDark, contrastLevel: contrastLevel),
       DynamicSchemeVariant.rainbow => SchemeRainbow(sourceColorHct: sourceColor, isDark: isDark, contrastLevel: contrastLevel),
       DynamicSchemeVariant.fruitSalad => SchemeFruitSalad(sourceColorHct: sourceColor, isDark: isDark, contrastLevel: contrastLevel),
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
     };
   }

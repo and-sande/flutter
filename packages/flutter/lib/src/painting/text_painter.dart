@@ -1474,6 +1474,7 @@ class TextPainter {
 
     if (boxes.isNotEmpty) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       final bool ahchorToLeft = switch (glyphInfo.writingDirection) {
         TextDirection.ltr => anchorToLeadingEdge,
         TextDirection.rtl => !anchorToLeadingEdge,
@@ -1481,6 +1482,15 @@ class TextPainter {
       final TextBox box = ahchorToLeft ? boxes.first : boxes.last;
       metrics = _LineCaretMetrics(
         offset: Offset(ahchorToLeft ? box.left : box.right, box.top),
+=======
+      final bool anchorToLeft = switch (glyphInfo.writingDirection) {
+        TextDirection.ltr => anchorToLeadingEdge,
+        TextDirection.rtl => !anchorToLeadingEdge,
+      };
+      final TextBox box = anchorToLeft ? boxes.first : boxes.last;
+      metrics = _LineCaretMetrics(
+        offset: Offset(anchorToLeft ? box.left : box.right, box.top),
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
       final bool anchorToLeft = switch (glyphInfo.writingDirection) {
         TextDirection.ltr => anchorToLeadingEdge,

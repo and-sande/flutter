@@ -326,6 +326,7 @@ enum SourceElementType {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /// Converts the enun type [SourceElementType] to a human readable string.
 String sourceElementTypeAsString(SourceElementType type) {
   switch (type) {
@@ -347,6 +348,8 @@ String sourceElementTypeAsString(SourceElementType type) {
       return 'unknown';
   }
 =======
+=======
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 /// Converts the enum type [SourceElementType] to a human readable string.
 String sourceElementTypeAsString(SourceElementType type) {
   return switch (type) {
@@ -359,6 +362,9 @@ String sourceElementTypeAsString(SourceElementType type) {
     SourceElementType.functionType         => 'function',
     SourceElementType.unknownType          => 'unknown',
   };
+<<<<<<< HEAD
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
+=======
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 }
 

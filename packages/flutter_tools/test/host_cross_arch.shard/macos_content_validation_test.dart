@@ -176,10 +176,16 @@ void main() {
       );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       // Check read/write permissions are being correctly set
       final String rawStatString = outputFlutterFramework.statSync().modeString();
       final String statString = rawStatString.substring(rawStatString.length - 9);
       expect(statString, 'rwxr-xr-x');
+=======
+      // Check read/write permissions are being correctly set.
+      final String outputFrameworkStat = outputFlutterFramework.statSync().mode.toRadixString(8);
+      expect(outputFrameworkStat, '40755');
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
       // Check read/write permissions are being correctly set.
       final String outputFrameworkStat = outputFlutterFramework.statSync().mode.toRadixString(8);

@@ -464,10 +464,16 @@ void main() {
       expect(appCodesign, const ProcessResultMatcher());
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       // Check read/write permissions are being correctly set
       final String rawStatString = flutterFrameworkDir.statSync().modeString();
       final String statString = rawStatString.substring(rawStatString.length - 9);
       expect(statString, 'rwxr-xr-x');
+=======
+      // Check read/write permissions are being correctly set.
+      final String statString = flutterFrameworkDir.statSync().mode.toRadixString(8);
+      expect(statString, '40755');
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
       // Check read/write permissions are being correctly set.
       final String statString = flutterFrameworkDir.statSync().mode.toRadixString(8);

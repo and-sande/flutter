@@ -14,7 +14,11 @@ dependencies:
     sdk: flutter
   path: 1.9.0
 <<<<<<< HEAD
+<<<<<<< HEAD
   vm_service: 14.2.1
+=======
+  vm_service: 14.2.4
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
   vm_service: 14.2.4
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -52,7 +56,11 @@ flutter:
         pluginClass: IntegrationTestPlugin
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PUBSPEC CHECKSUM: d966
+=======
+# PUBSPEC CHECKSUM: 6a9c
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
 # PUBSPEC CHECKSUM: 6a9c
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819

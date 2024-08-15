@@ -31,7 +31,11 @@ void main() {
     }
     expect(coloredBox().color, const Color(0xff65558f));
 <<<<<<< HEAD
+<<<<<<< HEAD
     await tester.tap(find.byType(MenuAnchor));
+=======
+    await tester.tap(find.byType(example.SettingsButton));
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
     await tester.tap(find.byType(example.SettingsButton));
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819

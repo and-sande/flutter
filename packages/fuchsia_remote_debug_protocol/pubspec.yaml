@@ -9,7 +9,11 @@ environment:
 dependencies:
   process: 5.0.2
 <<<<<<< HEAD
+<<<<<<< HEAD
   vm_service: 14.2.1
+=======
+  vm_service: 14.2.4
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
   vm_service: 14.2.4
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
@@ -69,7 +73,11 @@ dartdoc:
   nodoc: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PUBSPEC CHECKSUM: 9264
+=======
+# PUBSPEC CHECKSUM: 3872
+>>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
 =======
 # PUBSPEC CHECKSUM: 3872
 >>>>>>> 80c2e84975bbd28ecf5f8d4bd4ca5a2490bfc819
